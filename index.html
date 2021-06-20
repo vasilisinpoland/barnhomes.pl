@@ -22,9 +22,18 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
-    <link rel="stylesheet" href="styles/barnstyles.css" />
-    <link rel="stylesheet" href="styles/herotypewriter.css" />
+
     
+    <link rel="stylesheet" href="styles/herotypewriter.css" media="(min-width: 64em)"/>
+
+    <!-- Served to screens that are at least 20em wide -->
+    <link rel="stylesheet" href="styles/barnstyles-small.css" media="(min-width: 20em)" />
+    <!-- Served to screens that are at least 64em wide -->
+    <link rel="stylesheet" href="styles/barnstyles-medium.css" media="(min-width: 64em)" />
+    <!-- Served to screens that are at least 90em wide -->
+    <link rel="stylesheet" href="styles/barnstyles-large.css" media="(min-width: 90em)" />
+    <!-- Served to screens that are at least 120em wide -->
+    <link rel="stylesheet" href="styles/barnstyles-large.css" media="(min-width: 120em)" />
   
   </head>
   <body>
