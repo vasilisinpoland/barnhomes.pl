@@ -24,24 +24,12 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
   />
-    
+   
   
   </head>
   <body>
     <main>
-        <header>
-            <div>
-            <img src="barnhomes_main_logo_300.png" class="logo">
-            </div> 
-            <div class="menu">
-                <a href="index.html" class="menu" alt="BARNHOMES.pl prefabrykowane ekologiczne całoroczne domy w stylu Barnhouse" target="_self">HOME</a> | 
-                <a href="barn-xs.html" class="menu" alt="BARNHOMES | KATALOG | Barn XS" target="_self">BARN XS</a> | 
-                <a href="barn-s.html" class="menu" alt="BARNHOMES | KATALOG | Barn S" target="_self">BARN S</a> | 
-                <a href="barn-m.html" class="menu" alt="BARNHOMES | KATALOG | Barn M" target="_self">BARN M</a> | 
-                <a href="barn-l.html" class="menu" alt="BARNHOMES | KATALOG | Barn L" target="_self">BARN L</a>
-  
-              </div>
-        </header>
+      <?php include 'includes/header.html' ?>
         <section class="barnshero">
             <div class="splide">
                 <div class="splide__track">
@@ -143,6 +131,8 @@
         </section>
 
     </main>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script>
       new Splide(".splide", {
